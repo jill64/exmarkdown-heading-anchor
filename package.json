@@ -4,6 +4,7 @@
   "type": "module",
   "description": "A svelte-exmarkdown plugin that places anchors in heading tags.",
   "main": "dist/index.js",
+  "svelte": "./dist/index.js",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/heading-anchor/issues",
