@@ -9,13 +9,18 @@ import H6 from './renderer/H6.svelte'
 import type { Options } from './types/Options.js'
 
 export const headingAnchor = (options?: Options): Plugin => {
-  store.set(options)
+  const opts = {
+    prefix: options?.prefix ?? '',
+    include: options?.include ?? ['h1', 'h2', 'h3']
+  }
+
+  store.set(opts)
 
   const enable = new Array(6)
     .fill(false)
     .map(
       (_, i) =>
-        options?.include?.includes(
+        opts.include?.includes(
           `h${i + 1}` as NonNullable<Options['include']>[number]
         ) ?? false
     )
