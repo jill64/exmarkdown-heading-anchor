@@ -50,3 +50,7 @@ npm i @jill64/exmarkdown-heading-anchor
 ```
 
 [Plugin Config Types](./src/lib/types/Options.ts)
+
+## Known limitations
+
+The attribute is added when the component is mounted, so the HTML rendered server-side does not have an id attribute.
