@@ -66,6 +66,6 @@
   },
   "dependencies": {
     "svelte": "4.2.1",
-    "svelte-exmarkdown": "3.0.0"
+    "svelte-exmarkdown": "3.0.1"
   }
 }
