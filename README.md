@@ -1,5 +1,7 @@
 # exmarkdown-heading-anchor
 
+[![CI](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml)
+
 A [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown) plugin that places anchors in heading tags.
 
 [Demo](https://jill64.github.io/exmarkdown-heading-anchor)
