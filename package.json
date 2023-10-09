@@ -1,6 +1,6 @@
 {
   "name": "exmarkdown-heading-anchor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "A svelte-exmarkdown plugin that places anchors in heading tags.",
   "main": "dist/index.js",
@@ -53,7 +53,7 @@
     "@typescript-eslint/parser": "6.7.4",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-svelte": "2.34.0",
-    "highlight.js": "11.8.0",
+    "highlight.js": "11.9.0",
     "prettier-plugin-svelte": "3.0.3",
     "tslib": "2.6.2",
     "typescript": "5.2.2",
