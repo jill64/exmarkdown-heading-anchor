@@ -27,14 +27,14 @@ By using this plugin, convert Markdown as follows.
 ## Install
 
 ```sh
-npm i @jill64/exmarkdown-heading-anchor
+npm i exmarkdown-heading-anchor
 ```
 
 ## Example
 
 ```svelte
 <script>
-  import { headingAnchor } from '@jill64/exmarkdown-heading-anchor'
+  import { headingAnchor } from 'exmarkdown-heading-anchor'
   import { Markdown } from 'svelte-exmarkdown'
 
   // ...
