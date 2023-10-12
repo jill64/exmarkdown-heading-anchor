@@ -9,18 +9,9 @@
 
 <h1>exmarkdown-heading-anchor</h1>
 <main>
-  <textarea
-    placeholder="Markdown"
-    bind:value={md}
-  />
+  <textarea placeholder="Markdown" bind:value={md} />
   <div data-testid="markdown-preview">
-    <Markdown
-      {md}
-      plugins={[
-        gfmPlugin(),
-        headingAnchor()
-      ]}
-    />
+    <Markdown {md} plugins={[gfmPlugin(), headingAnchor()]} />
   </div>
 </main>
 
