@@ -11,7 +11,15 @@
 <main>
   <textarea placeholder="Markdown" bind:value={md} />
   <div data-testid="markdown-preview">
-    <Markdown {md} plugins={[gfmPlugin(), headingAnchor()]} />
+    <Markdown
+      {md}
+      plugins={[
+        gfmPlugin(),
+        headingAnchor({
+          prefix: 'anchor-'
+        })
+      ]}
+    />
   </div>
 </main>
 
