@@ -1,7 +1,7 @@
 # exmarkdown-heading-anchor
 
 [![npm](https://img.shields.io/npm/v/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor)
-[![CI](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml)
+[![Deploy](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/deploy.yml)
 
 A [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown) plugin that places anchors in heading tags.
 
