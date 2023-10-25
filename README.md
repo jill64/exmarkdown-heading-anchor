@@ -1,8 +1,7 @@
-# exmarkdown-heading-anchor
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
 
-[![npm](https://img.shields.io/npm/v/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor)
-
-A [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown) plugin that places anchors in heading tags.
+[svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
 
 [Demo](https://jill64.github.io/exmarkdown-heading-anchor)
 
