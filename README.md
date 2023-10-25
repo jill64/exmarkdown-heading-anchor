@@ -1,8 +1,14 @@
+<!----- BEGIN GHOST DOCS HEADER ----->
+
 # exmarkdown-heading-anchor
 
-[![npm](https://img.shields.io/npm/v/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor)
+[![npm-version](https://img.shields.io/npm/v/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-license](https://img.shields.io/npm/l/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-download-month](https://img.shields.io/npm/dm/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-min-size](https://img.shields.io/bundlephobia/min/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![ci.yml](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml) [![deploy.yml](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/deploy.yml)
 
-A [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown) plugin that places anchors in heading tags.
+A svelte-exmarkdown plugin that places anchors in heading tags.
+
+<!----- END GHOST DOCS HEADER ----->
+
+[svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
 
 [Demo](https://jill64.github.io/exmarkdown-heading-anchor)
 
