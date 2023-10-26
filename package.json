@@ -20,7 +20,10 @@
   },
   "keywords": [
     "svelte",
-    "markdown"
+    "markdown",
+    "heading",
+    "anchor",
+    "link"
   ],
   "repository": {
     "type": "git",
