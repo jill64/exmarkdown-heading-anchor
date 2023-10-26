@@ -1,10 +1,9 @@
 {
   "name": "exmarkdown-heading-anchor",
-  "version": "0.1.22",
+  "version": "1.0.0",
   "type": "module",
   "description": "A svelte-exmarkdown plugin that places anchors in heading tags.",
   "main": "dist/index.js",
-  "svelte": "./dist/index.js",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/exmarkdown-heading-anchor/issues",
@@ -15,6 +14,7 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js",
       "default": "./dist/index.js"
     }
   },
