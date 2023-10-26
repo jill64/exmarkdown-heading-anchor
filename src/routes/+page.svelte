@@ -8,8 +8,8 @@
 </script>
 
 <header>
-<h1>exmarkdown-heading-anchor</h1>
-<a href="https://github.com/jill64/exmarkdown-heading-anchor">GitHub</a>
+  <h1>exmarkdown-heading-anchor</h1>
+  <a href="https://github.com/jill64/exmarkdown-heading-anchor">GitHub</a>
 </header>
 <main>
   <textarea placeholder="Markdown" bind:value={md} />
