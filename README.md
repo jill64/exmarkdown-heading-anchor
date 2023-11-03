@@ -18,8 +18,6 @@ npm i exmarkdown-heading-anchor
 
 [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
 
-[Demo](https://jill64.github.io/exmarkdown-heading-anchor)
-
 By using this plugin, convert Markdown as follows.
 
 ```markdown
