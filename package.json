@@ -9,7 +9,9 @@
   "bugs": "https://github.com/jill64/exmarkdown-heading-anchor/issues",
   "homepage": "https://github.com/jill64/exmarkdown-heading-anchor#readme",
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -19,11 +21,9 @@
     }
   },
   "keywords": [
-    "svelte",
-    "markdown",
     "heading",
-    "anchor",
-    "link"
+    "markdown",
+    "svelte"
   ],
   "repository": {
     "type": "git",
