@@ -16,9 +16,8 @@ npm i exmarkdown-heading-anchor
 
 <!----- END GHOST DOCS HEADER ----->
 
-[svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
-
-By using this plugin, convert Markdown as follows.
+This is plugin of [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown).
+By using this plugin, convert Markdown as follows
 
 ```markdown
 # Heading1
@@ -36,10 +35,10 @@ By using this plugin, convert Markdown as follows.
 <h3 id="Heading3">Heading3</h2>
 ```
 
-## Install
+This supports navigation by anchor links.
 
-```sh
-npm i exmarkdown-heading-anchor
+```html
+<a href="/path/to/page#Heading3">To Heading3<a></a></a>
 ```
 
 ## Example
@@ -58,13 +57,24 @@ npm i exmarkdown-heading-anchor
     // ...
     headingAnchor({
       // Configuration (optional)
+      /**
+       * Character to prepend to ID to avoid collision
+       * @default ''
+       */
+      prefix?: string
+
+      /**
+       * Tag to add ID attribute
+       * @default ['h1', 'h2', 'h3']
+       */
+      include?: ('h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6')[]
     })
   ]}
 />
 ```
 
-[Plugin Config Types](./src/lib/types/Options.ts)
-
-## Known limitations
-
-The attribute is added when the component is mounted, so the HTML rendered server-side does not have an id attribute.
+> [!IMPORTANT]
+>
+> ### Currently Limitations
+>
+> The attribute is added when the component is mounted, so the HTML rendered server-side does not have an id attribute.
