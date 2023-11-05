@@ -38,7 +38,7 @@ By using this plugin, convert Markdown as follows
 This supports navigation by anchor links.
 
 ```html
-<a href="/path/to/page#Heading3">To Heading3<a>
+<a href="/path/to/page#Heading3">To Heading3<a></a></a>
 ```
 
 ## Example
@@ -62,7 +62,7 @@ This supports navigation by anchor links.
        * @default ''
        */
       prefix?: string
-    
+
       /**
        * Tag to add ID attribute
        * @default ['h1', 'h2', 'h3']
@@ -74,5 +74,7 @@ This supports navigation by anchor links.
 ```
 
 > [!IMPORTANT]
+>
 > ### Currently Limitations
+>
 > The attribute is added when the component is mounted, so the HTML rendered server-side does not have an id attribute.
