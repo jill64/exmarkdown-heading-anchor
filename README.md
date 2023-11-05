@@ -38,7 +38,7 @@ By using this plugin, convert Markdown as follows
 This supports navigation by anchor links.
 
 ```html
-<a href="/path/to/page#Heading3">To Heading3<a></a></a>
+<a href="/path/to/page#Heading3">To Heading3</a>
 ```
 
 ## Example
