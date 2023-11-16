@@ -2,13 +2,11 @@
 
 # exmarkdown-heading-anchor
 
-[![npm-version](https://img.shields.io/npm/v/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-license](https://img.shields.io/npm/l/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-download-month](https://img.shields.io/npm/dm/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-min-size](https://img.shields.io/bundlephobia/min/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![ci.yml](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml) [![github-pages](https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fjill64.github.io%2Fexmarkdown-heading-anchor%2F)](https://jill64.github.io/exmarkdown-heading-anchor/)
+[![npm-version](https://img.shields.io/npm/v/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-license](https://img.shields.io/npm/l/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-download-month](https://img.shields.io/npm/dm/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![npm-min-size](https://img.shields.io/bundlephobia/min/exmarkdown-heading-anchor)](https://npmjs.com/package/exmarkdown-heading-anchor) [![ci.yml](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml) [![website](https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fexmarkdown-heading-anchor.jill64.dev%2F)](https://exmarkdown-heading-anchor.jill64.dev/)
 
 ⚓️ A svelte-exmarkdown plugin that places anchors in heading tags
 
-## [Demo](https://jill64.github.io/exmarkdown-heading-anchor/)
-
-## Install
+## Installation
 
 ```sh
 npm i exmarkdown-heading-anchor
