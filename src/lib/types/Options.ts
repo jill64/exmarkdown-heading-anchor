@@ -1,3 +1,5 @@
+import type { HeadingTag } from './HeadingTag'
+
 export type Options = {
   /**
    * Character to prepend to ID to avoid collision
@@ -9,5 +11,13 @@ export type Options = {
    * Tag to add ID attribute
    * @default ['h1', 'h2', 'h3']
    */
-  include?: ('h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6')[]
+  include?: HeadingTag[]
+
+  /**
+   * Specify a string to be added as an anchor link after the heading.
+   * If not specified, no anchor link will be added.
+   * @example 🔗
+   * @default undefined
+   */
+  anchor?: string
 }
