@@ -6,6 +6,8 @@
 
 ⚓️ A svelte-exmarkdown plugin that places anchors in heading tags
 
+## [Demo](https://exmarkdown-heading-anchor.jill64.dev/)
+
 ## Installation
 
 ```sh
