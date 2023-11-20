@@ -6,6 +6,8 @@
 
 ⚓️ A svelte-exmarkdown plugin that places anchors in heading tags
 
+## [Demo](https://exmarkdown-heading-anchor.jill64.dev/)
+
 ## Installation
 
 ```sh
@@ -14,10 +16,12 @@ npm i exmarkdown-heading-anchor
 
 <!----- END GHOST DOCS HEADER ----->
 
-This is plugin of [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown).
+This is plugin of [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown).  
 By using this plugin, convert Markdown as follows
 
-```markdown
+Markdown
+
+```md
 # Heading1
 
 ## Heading2
@@ -26,6 +30,8 @@ By using this plugin, convert Markdown as follows
 ```
 
 ↓
+
+HTML
 
 ```html
 <h1 id="Heading1">Heading1</h1>
@@ -45,34 +51,34 @@ This supports navigation by anchor links.
 <script>
   import { headingAnchor } from 'exmarkdown-heading-anchor'
   import { Markdown } from 'svelte-exmarkdown'
-
-  // ...
 </script>
 
 <Markdown
-  md={/*...*/}
   plugins={[
     // ...
     headingAnchor({
-      // Configuration (optional)
       /**
        * Character to prepend to ID to avoid collision
        * @default ''
        */
-      prefix?: string
+      prefix?: string,
 
       /**
        * Tag to add ID attribute
        * @default ['h1', 'h2', 'h3']
        */
-      include?: ('h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6')[]
+      include?: ('h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6')[],
+
+      /**
+      * Specify a string to be added as an anchor link after the heading.
+      * If not specified, no anchor link will be added.
+      * @example 🔗
+      * @default undefined
+      */
+      anchor?: string
     })
   ]}
 />
 ```
 
-> [!IMPORTANT]
->
-> ### Currently Limitations
->
-> The attribute is added when the component is mounted, so the HTML rendered server-side does not have an id attribute.
+[Full Plugin Options](./src/lib/types/Options.ts)
