@@ -67,6 +67,6 @@
     "vite": "5.0.0"
   },
   "dependencies": {
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "5.0.0"
   }
 }
