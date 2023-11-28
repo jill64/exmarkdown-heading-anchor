@@ -5,15 +5,15 @@ test('Test', async ({ page }) => {
 
   await expect(
     page.getByRole('heading', { name: 'Heading1', exact: true })
-  ).toHaveAttribute('id', 'anchor-Heading1')
+  ).toHaveAttribute('id', 'Heading1')
 
   await expect(
     page.getByRole('heading', { name: 'Heading2', exact: true })
-  ).toHaveAttribute('id', 'anchor-Heading2')
+  ).toHaveAttribute('id', 'Heading2')
 
   await expect(
     page.getByRole('heading', { name: 'Heading3', exact: true })
-  ).toHaveAttribute('id', 'anchor-Heading3')
+  ).toHaveAttribute('id', 'Heading3')
 
   const textarea = page.getByPlaceholder('Markdown')
 
@@ -21,5 +21,5 @@ test('Test', async ({ page }) => {
 
   await expect(
     page.getByRole('heading', { name: 'Modified Heading1', exact: true })
-  ).toHaveAttribute('id', 'anchor-Modified Heading1')
+  ).toHaveAttribute('id', 'Modified Heading1')
 })
