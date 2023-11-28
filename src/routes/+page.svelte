@@ -7,19 +7,22 @@
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
   import { define } from 'svelte-qparam'
-  import { enums } from 'svelte-qparam/converter'
+  import { enums, json, string } from 'svelte-qparam/serde'
   import mock from './mock.md?raw'
 
   const extract = define({
-    prefix: {
-      parse: (str) => str ?? 'anchor-',
-      stringify: (str) => str
-    },
+    prefix: string,
     anchor: enums(['🔗', '＃'], '🔗'),
-    include: {
-      parse: (str) => (str?.split(',') ?? ['h1', 'h2', 'h3']) as HeadingTag[],
-      stringify: (arr: HeadingTag[]) => arr.join(',')
-    }
+    include: json(
+      (x): x is HeadingTag[] =>
+        Array.isArray(x) &&
+        x.every(
+          (s) =>
+            typeof s === 'string' &&
+            (headingTag as Readonly<string[]>).includes(s)
+        ),
+      ['h1', 'h2', 'h3'] as const
+    )
   })
 
   $: ({ qparams } = extract($page.url))
