@@ -8,12 +8,6 @@
 
 ## [Demo](https://exmarkdown-heading-anchor.jill64.dev)
 
-## Installation
-
-```sh
-npm i exmarkdown-heading-anchor
-```
-
 <!----- END GHOST DOCS HEADER ----->
 
 This is plugin of [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown).  
