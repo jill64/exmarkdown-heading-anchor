@@ -39,6 +39,12 @@ This supports navigation by anchor links.
 <a href="/path/to/page#Heading3">To Heading3</a>
 ```
 
+## Installation
+
+```sh
+npm i exmarkdown-heading-anchor
+```
+
 ## Example
 
 ```svelte
