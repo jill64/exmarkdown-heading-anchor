@@ -5,7 +5,12 @@
   "description": "⚓️ A svelte-exmarkdown plugin that places anchors in heading tags",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/exmarkdown-heading-anchor/issues",
   "homepage": "https://github.com/jill64/exmarkdown-heading-anchor#readme",
   "files": [
@@ -27,7 +32,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/exmarkdown-heading-anchor.git"
+    "url": "https://github.com/jill64/exmarkdown-heading-anchor.git",
+    "image": "https://opengraph.githubassets.com/29cffc26dd3e0b61b36006a71c2202adf8991b6e459c248a2f39ae9de4ec12ea/jill64/exmarkdown-heading-anchor"
   },
   "scripts": {
     "dev": "vite dev",
@@ -46,11 +52,11 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/sentry-sveltekit-cloudflare": "1.5.0",
     "@jill64/eslint-config-svelte": "1.0.1",
-    "@jill64/prettier-config": "1.0.0",
+    "@jill64/npm-demo-layout": "0.0.4",
     "@jill64/playwright-config": "2.2.0",
-    "@jill64/svelte-dark-theme": "2.2.14",
+    "@jill64/prettier-config": "1.0.0",
+    "@jill64/sentry-sveltekit-cloudflare": "1.5.0",
     "@jill64/svelte-input": "1.5.2",
     "@playwright/test": "1.40.1",
     "@sveltejs/adapter-cloudflare": "2.3.4",
