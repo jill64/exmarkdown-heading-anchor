@@ -82,3 +82,11 @@ npm i exmarkdown-heading-anchor
 ```
 
 [Full Plugin Options](./src/lib/types/Options.ts)
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
