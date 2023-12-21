@@ -2,7 +2,11 @@
 
 # exmarkdown-heading-anchor
 
-<!----- BEGIN GHOST DOCS BADGES -----><a href="https://npmjs.com/package/exmarkdown-heading-anchor"><img src="https://img.shields.io/npm/v/exmarkdown-heading-anchor" alt="npm-version" /></a> <a href="https://npmjs.com/package/exmarkdown-heading-anchor"><img src="https://img.shields.io/npm/l/exmarkdown-heading-anchor" alt="npm-license" /></a> <a href="https://npmjs.com/package/exmarkdown-heading-anchor"><img src="https://img.shields.io/npm/dm/exmarkdown-heading-anchor" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/exmarkdown-heading-anchor"><img src="https://img.shields.io/bundlephobia/min/exmarkdown-heading-anchor" alt="npm-min-size" /></a> <a href="https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml"><img src="https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a> <a href="https://exmarkdown-heading-anchor.jill64.dev"><img src="https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fexmarkdown-heading-anchor.jill64.dev" alt="website" /></a><!----- END GHOST DOCS BADGES ----->
+
+<!----- BEGIN GHOST DOCS BADGES ----->
+<a href="https://npmjs.com/package/exmarkdown-heading-anchor"><img src="https://img.shields.io/npm/v/exmarkdown-heading-anchor" alt="npm-version" /></a> <a href="https://npmjs.com/package/exmarkdown-heading-anchor"><img src="https://img.shields.io/npm/l/exmarkdown-heading-anchor" alt="npm-license" /></a> <a href="https://npmjs.com/package/exmarkdown-heading-anchor"><img src="https://img.shields.io/npm/dm/exmarkdown-heading-anchor" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/exmarkdown-heading-anchor"><img src="https://img.shields.io/bundlephobia/min/exmarkdown-heading-anchor" alt="npm-min-size" /></a> <a href="https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml"><img src="https://github.com/jill64/exmarkdown-heading-anchor/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a> <a href="https://exmarkdown-heading-anchor.jill64.dev"><img src="https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fexmarkdown-heading-anchor.jill64.dev" alt="website" /></a>
+<!----- END GHOST DOCS BADGES ----->
+
 
 ⚓️ A svelte-exmarkdown plugin that places anchors in heading tags
 
