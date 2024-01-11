@@ -1,6 +1,6 @@
 {
   "name": "exmarkdown-heading-anchor",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "type": "module",
   "description": "⚓️ A svelte-exmarkdown plugin that places anchors in heading tags",
   "main": "dist/index.js",
