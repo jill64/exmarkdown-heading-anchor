@@ -64,7 +64,7 @@
     "@sveltejs/kit": "2.5.4",
     "svelte": "4.2.12",
     "svelte-exmarkdown": "3.0.3",
-    "svelte-qparam": "1.0.14",
+    "svelte-qparam": "1.0.15",
     "typescript": "5.4.2",
     "unified": "11.0.4",
     "vite": "5.1.6",
