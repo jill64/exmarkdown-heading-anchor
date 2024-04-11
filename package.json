@@ -68,7 +68,7 @@
     "typescript": "5.4.5",
     "unified": "11.0.4",
     "vite": "5.2.8",
-    "@sveltejs/vite-plugin-svelte": "3.0.2"
+    "@sveltejs/vite-plugin-svelte": "3.1.0"
   },
   "dependencies": {
     "unist-util-visit": "5.0.0"
