@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "intents.turrets0h@icloud.com",
+    "email": "contact@jill64.dev",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -33,7 +33,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/exmarkdown-heading-anchor.git",
-    "image": "https://opengraph.githubassets.com/1d766340869b4c141b25b551242560fb933d932f23de3185848648dd344534b6/jill64/exmarkdown-heading-anchor"
+    "image": "https://opengraph.githubassets.com/f771a0210dee24ce11892abe608464205f29933c04c99c3c3953f8cd5c777df0/jill64/exmarkdown-heading-anchor"
   },
   "scripts": {
     "dev": "vite dev",
@@ -67,7 +67,7 @@
     "svelte-qparam": "1.0.21",
     "typescript": "5.4.5",
     "unified": "11.0.4",
-    "vite": "5.2.9",
+    "vite": "5.2.10",
     "@sveltejs/vite-plugin-svelte": "3.1.0"
   },
   "dependencies": {
