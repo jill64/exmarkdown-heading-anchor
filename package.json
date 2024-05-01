@@ -33,7 +33,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/exmarkdown-heading-anchor.git",
-    "image": "https://opengraph.githubassets.com/525935fa907ea88e87c8413a6a00bc2daac3ce5d98f4bdb66f558295fa1bf21d/jill64/exmarkdown-heading-anchor"
+    "image": "https://opengraph.githubassets.com/738e74039b01468eabffc5c136f1d85c54bc68ba9a0ff0894d151f22aa65bd34/jill64/exmarkdown-heading-anchor"
   },
   "scripts": {
     "dev": "vite dev",
