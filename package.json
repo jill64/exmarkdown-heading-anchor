@@ -33,7 +33,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-heading-anchor.git",
-    "image": "https://opengraph.githubassets.com/6a07e0f40173f9f1d491f85989b28d360d71f5ef7aa04bb15122efbd9dcba93b/jill64/exmarkdown-heading-anchor"
+    "image": "https://opengraph.githubassets.com/47d9dd9b7432ab82f0c75950484c7c34ee8fb4d0c0b019bd5593477be83671e7/jill64/exmarkdown-heading-anchor"
   },
   "scripts": {
     "dev": "vite dev",
@@ -48,7 +48,7 @@
   },
   "peerDependencies": {
     "svelte": "^4.0.0 || ^5.0.0",
-    "svelte-exmarkdown": "^3.0.0"
+    "svelte-exmarkdown": "^3.0.0 || ^4.0.0"
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
@@ -63,7 +63,7 @@
     "@sveltejs/adapter-cloudflare": "4.7.3",
     "@sveltejs/kit": "2.6.1",
     "svelte": "5.0.4",
-    "svelte-exmarkdown": "3.0.5",
+    "svelte-exmarkdown": "4.0.0",
     "svelte-qparam": "1.0.34",
     "typescript": "5.6.3",
     "unified": "11.0.5",
