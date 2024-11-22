@@ -65,7 +65,7 @@
     "svelte": "5.2.7",
     "svelte-exmarkdown": "4.0.1",
     "svelte-qparam": "1.0.35",
-    "typescript": "5.6.3",
+    "typescript": "5.7.2",
     "unified": "11.0.5",
     "vite": "5.4.10",
     "@sveltejs/vite-plugin-svelte": "3.1.2"
