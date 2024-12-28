@@ -3,7 +3,7 @@
   import { headingAnchor } from '$lib'
   import { headingTag } from '$lib/headingTag'
   import type { HeadingTag } from '$lib/types/HeadingTag'
-  import { CheckList, Radio, TextArea } from '@jill64/svelte-input'
+  import { CheckList, Radio } from '@jill64/svelte-input'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
   import { define } from 'svelte-qparam'
@@ -44,8 +44,10 @@
   </label>
   <fieldset>
     <legend>Anchor Icon</legend>
-    <Radio list={['🔗', '＃']} bind:value={$anchor} let:item>
-      <span style:margin-left="0.5rem">{item}</span>
+    <Radio list={['🔗', '＃']} bind:value={$anchor}>
+      {#snippet children(item)}
+        <span style:margin-left="0.5rem">{item}</span>
+      {/snippet}
     </Radio>
   </fieldset>
   <fieldset>
@@ -55,20 +57,20 @@
         headingTag.map((tag) => [tag, $include.includes(tag)])
       )}
       {onChange}
-      let:item
     >
-      <span style:margin-left="0.5rem">{item}</span>
+      {#snippet children(item)}
+        <span style:margin-left="0.5rem">{item}</span>
+      {/snippet}
     </CheckList>
   </fieldset>
 </aside>
 
 <main>
-  <TextArea
-    style="background: inherit; color: inherit; border-radius: 0.25rem; border: 1px solid #888;"
-    padding="0.5rem"
+  <textarea
+    style="padding: 0.5rem; background: inherit; color: inherit; border-radius: 0.25rem; border: 1px solid #888;"
     placeholder="Markdown"
     bind:value={md}
-  />
+  ></textarea>
   <div>
     <output data-testid="markdown-preview">
       <Markdown
