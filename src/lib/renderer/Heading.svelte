@@ -1,15 +1,14 @@
 <script lang="ts">
-  import { options } from '$lib/options'
+  import { options } from '$lib/options.svelte'
 
-  $: ({ anchor } = $options ?? {})
   $: ({ tag, id } = $$props)
 </script>
 
 <svelte:element this={tag} {id}>
   <slot />
-  {#if anchor && id}
+  {#if options.anchor && id}
     <a href="#{id}">
-      {anchor}
+      {options.anchor}
     </a>
   {/if}
 </svelte:element>
