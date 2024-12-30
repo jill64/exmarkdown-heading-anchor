@@ -1,6 +1,6 @@
 {
   "name": "exmarkdown-heading-anchor",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "type": "module",
   "description": "⚓️ A svelte-exmarkdown plugin that places anchors in heading tags",
   "main": "dist/index.js",
@@ -33,7 +33,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-heading-anchor.git",
-    "image": "https://opengraph.githubassets.com/7cd81eb83de2f493ed28f1cc1cfde0378f06e441e500b5d78b8165c0bc5c2e62/jill64/exmarkdown-heading-anchor"
+    "image": "https://opengraph.githubassets.com/5b39f0bcefeb6992a19c8dfbb3d94ac7e46cadfed697f6b89a394d0d9d5cfed8/jill64/exmarkdown-heading-anchor"
   },
   "scripts": {
     "dev": "vite dev",
