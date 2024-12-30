@@ -25,6 +25,7 @@
   },
   "keywords": [
     "heading",
+    "library",
     "link",
     "markdown",
     "plugin",
@@ -33,7 +34,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-heading-anchor.git",
-    "image": "https://opengraph.githubassets.com/b3ab68bf06601e3264573f7b18573572249344469c38d979e3a9d1d6ff725d43/jill64/exmarkdown-heading-anchor"
+    "image": "https://opengraph.githubassets.com/366e579488d6353c18f83f1a02d49087d3f7d97b230e69af49e3f258f23194f1/jill64/exmarkdown-heading-anchor"
   },
   "scripts": {
     "dev": "vite dev",
@@ -53,7 +54,7 @@
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-svelte": "2.0.1",
-    "@jill64/npm-demo-layout": "1.0.249",
+    "@jill64/npm-demo-layout": "2.0.1",
     "@jill64/universal-sanitizer": "1.3.6",
     "@jill64/playwright-config": "2.4.2",
     "@jill64/prettier-config": "1.0.0",
