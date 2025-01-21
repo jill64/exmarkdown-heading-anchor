@@ -34,7 +34,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-heading-anchor.git",
-    "image": "https://opengraph.githubassets.com/ae30462c35e7b5e999a462c388407a6fec10a9aa6fcbdcb6c6c0f0d1850bb178/jill64/exmarkdown-heading-anchor"
+    "image": "https://opengraph.githubassets.com/1c70fabb4ed43df138a78fd3c653e23494cc43dae5f11937894f5f45ca340e01/jill64/exmarkdown-heading-anchor"
   },
   "scripts": {
     "dev": "vite dev",
@@ -68,7 +68,7 @@
     "svelte-qparam": "1.0.37",
     "typescript": "5.7.2",
     "unified": "11.0.5",
-    "vite": "6.0.10",
+    "vite": "6.0.11",
     "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
