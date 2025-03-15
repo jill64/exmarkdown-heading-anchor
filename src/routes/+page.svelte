@@ -25,11 +25,10 @@
     )
   })
 
-  $: ({ qparams } = extract($page.url))
-  $: ({ prefix, anchor, include } = qparams)
+  let { qparams } = $derived(extract($page.url))
 
-  $: onChange = (x: Record<string, boolean>) => {
-    $include = Object.entries(x)
+  const onChange = (x: Record<string, boolean>) => {
+    qparams.include = Object.entries(x)
       .filter(([, v]) => v)
       .map(([k]) => k) as HeadingTag[]
   }
@@ -40,11 +39,11 @@
 <aside>
   <label>
     Prefix
-    <input bind:value={$prefix} />
+    <input bind:value={qparams.prefix} />
   </label>
   <fieldset>
     <legend>Anchor Icon</legend>
-    <Radio list={['🔗', '＃']} bind:value={$anchor}>
+    <Radio list={['🔗', '＃']} bind:value={qparams.anchor}>
       {#snippet children(item)}
         <span style:margin-left="0.5rem">{item}</span>
       {/snippet}
@@ -54,7 +53,7 @@
     <legend>Include Tags</legend>
     <CheckList
       value={Object.fromEntries(
-        headingTag.map((tag) => [tag, $include.includes(tag)])
+        headingTag.map((tag) => [tag, qparams.include.includes(tag)])
       )}
       {onChange}
     >
@@ -78,9 +77,9 @@
         plugins={[
           gfmPlugin(),
           headingAnchor({
-            prefix: $prefix,
-            anchor: $anchor,
-            include: $include
+            prefix: qparams.prefix,
+            anchor: qparams.anchor,
+            include: qparams.include
           })
         ]}
       />
