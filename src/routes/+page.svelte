@@ -33,7 +33,7 @@
       .map(([k]) => k) as HeadingTag[]
   }
 
-  let md = mock
+  let md = $state(mock)
 </script>
 
 <aside>
