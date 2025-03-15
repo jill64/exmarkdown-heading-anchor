@@ -1,14 +1,24 @@
 <script lang="ts">
-  import { options } from '$lib/options.svelte'
+  import type { Snippet } from 'svelte'
 
-  $: ({ tag, id } = $$props)
+  let {
+    tag,
+    id,
+    anchor,
+    children
+  }: {
+    tag: string
+    id: string
+    anchor: string
+    children: Snippet
+  } = $props()
 </script>
 
 <svelte:element this={tag} {id}>
-  <slot />
-  {#if options.anchor && id}
+  {@render children()}
+  {#if anchor && id}
     <a href="#{id}">
-      {options.anchor}
+      {anchor}
     </a>
   {/if}
 </svelte:element>
