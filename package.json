@@ -43,7 +43,7 @@
     "prepack": "bun run build",
     "package": "svelte-kit sync && bunx @sveltejs/package && bunx publint",
     "check": "svelte-kit sync && bunx svelte-check",
-    "test": "playwright test",
+    "test:e2e": "playwright test",
     "format": "bunx psvx",
     "lint": "bun run check && bunx eslint ."
   },

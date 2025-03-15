@@ -1,7 +1,6 @@
 import type { Plugin } from 'svelte-exmarkdown/types'
 import { visit } from 'unist-util-visit'
 import { headingTag } from './headingTag.js'
-import { options as store } from './options.svelte.js'
 import Heading from './renderer/Heading.svelte'
 import type { HeadingTag } from './types/HeadingTag.js'
 import type { Options } from './types/Options.js'
@@ -27,10 +26,6 @@ type Node = ElementNode | TextNode | RootNode
 
 export const headingAnchor = (options?: Options): Plugin => {
   const { prefix = '', include = ['h1', 'h2', 'h3'], anchor } = options ?? {}
-
-  store.prefix = prefix
-  store.include = include
-  store.anchor = anchor
 
   const apply = (node: RootNode | ElementNode) => {
     node.children.forEach((child) => {
@@ -58,6 +53,10 @@ export const headingAnchor = (options?: Options): Plugin => {
         }
 
         child.properties.id = `${prefix}${head.value}`
+
+        if (anchor) {
+          child.properties.anchor = anchor
+        }
       })
     })
   }
