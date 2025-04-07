@@ -34,7 +34,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-heading-anchor.git",
-    "image": "https://opengraph.githubassets.com/2c2a5689921a6cde51d31234d8b31e14d2c86805c14a1acc7851831631ef6ba5/jill64/exmarkdown-heading-anchor"
+    "image": "https://opengraph.githubassets.com/86fe6d24fafb6701918715e75b321065968327a30d0ffb87bfea68e2e810e970/jill64/exmarkdown-heading-anchor"
   },
   "scripts": {
     "dev": "vite dev",
@@ -63,7 +63,7 @@
     "@playwright/test": "1.51.1",
     "@sveltejs/adapter-cloudflare": "7.0.1",
     "@sveltejs/kit": "2.19.2",
-    "svelte": "5.25.7",
+    "svelte": "5.25.8",
     "svelte-exmarkdown": "4.0.3",
     "svelte-qparam": "2.1.2",
     "typescript": "5.8.3",
