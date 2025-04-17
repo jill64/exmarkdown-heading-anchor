@@ -63,7 +63,7 @@
     "@playwright/test": "1.51.1",
     "@sveltejs/adapter-cloudflare": "7.0.1",
     "@sveltejs/kit": "2.20.6",
-    "svelte": "5.27.0",
+    "svelte": "5.27.1",
     "svelte-exmarkdown": "4.0.3",
     "svelte-qparam": "2.1.2",
     "typescript": "5.8.3",
